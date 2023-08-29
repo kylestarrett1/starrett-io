@@ -1,0 +1,36 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // This defines what 1rem is
+    font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+}
+
+body {
+    position: relative;
+    box-sizing: border-box;
+    // margin: 0.8rem;
+
+    font-family: system-ui, 'Noto Sans';
+    font-weight: 400;
+
+    color: var(--grey-dark-5);
+    background-color: var(--grey-light-4);
+    line-height: 1.7;
+    z-index: -1;
+}
+
+@media (min-width: 80em) {
+    body {
+        margin: 0.8rem;
+    }
+}
+
+
+

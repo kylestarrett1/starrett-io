@@ -1,0 +1,30 @@
+.layout {
+    max-width: 90rem;
+    margin: 4rem auto 2rem auto;
+    padding: 0 3.6rem;
+}
+
+.blurb {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+    font-size: 1.8rem;  
+}
+
+.blurb > *:not(:nth-child(2)) {
+    margin-top: 2rem;
+}
+
+.introduction {
+    margin-top: 1rem;
+}
+
+.blurb li {
+    list-style-position: inside;
+    font-weight: 500;
+}
+
+.blurb li::marker {
+    font-weight: 400;
+}
+

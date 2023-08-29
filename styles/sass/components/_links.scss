@@ -1,0 +1,10 @@
+.link:link,
+.link:visited {
+    text-decoration: none;
+    color: var(--grey-dark-6);
+}
+
+.link:hover,
+.link:active {
+    cursor: pointer;
+}
